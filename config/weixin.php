@@ -11,8 +11,8 @@ return [
     /**
      * 账号基本信息，请从微信公众平台/开放平台获取
      */
-    'app_id'  => 'wxcf74a9f1052677c3',         // AppID
-    'secret'  => '9b87d471516e8a5f9861070aa816c806',     // AppSecret
+    'app_id'  => 'wxb9dbacbfbea79bc0',         // AppID
+    'secret'  => '8d3cca398a8c19a43f3dde5a933f6761',     // AppSecret
     'token'   => 'easywechat',          // Token
     'aes_key' => '',                    // EncodingAESKey
 

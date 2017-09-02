@@ -213,14 +213,6 @@ class WechatController extends Controller
     {
         $options = Config::get('weixin');
         $app = new Application($options);
-// 获取 access token 实例
-        $accessToken = $app->access_token; // EasyWeChat\Core\AccessToken 实例
-        $token = $accessToken->getToken(); // token 字符串
-        dd($token);
-        $token = $accessToken->getToken(true); // 强制重新从微信服务器获取 token.
-
-        $options = Config::get('weixin');
-        $app = new Application($options);
         $material = $app->material;
         $list = $material->lists('image');
         dd($list);
